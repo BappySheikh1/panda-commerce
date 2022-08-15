@@ -13,6 +13,12 @@ const backgroundColor =document.getElementById('backPack-area');
 
 //Q-4 card borderRaduis start
 
+const borders=document.getElementsByClassName('new-border');
+for(const border of borders){
+    border.classList.add('shoes-area')
+}
+
+
 
 // card borderRaduis end
 
@@ -23,6 +29,11 @@ function clickHandler(){
 // function click handler end
 
 // Q-6 start
+// header area start
+
+// header area end
+
+//  card area
  document.getElementById('btn-buyNow').addEventListener('click', function(){
     const removeDisplay = document.getElementById('remove-content')
     removeDisplay.style.display='none';
